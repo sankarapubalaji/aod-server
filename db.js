@@ -7,9 +7,9 @@ module.exports = () => {
 };
 try {
     mongoose.connect(process.env.DB, conn);
-    console.log("Connected to Submarine DataBase successfully");
+    console.log("Connected to Art Of Dosa DataBase successfully");
 } catch (error) {
     console.log(error);
-    console.log("Unable to connect wuth Submarine DateBase");
+    console.log("Unable to connect wuth Art Of Dosa DateBase");
 }
 };
